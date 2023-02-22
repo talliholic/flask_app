@@ -25,6 +25,3 @@ class User:
 def read_user():    
     user = User()       
     return user.read(1)
-
-if __name__ == "__main__":
-    app.run(debug=True)
